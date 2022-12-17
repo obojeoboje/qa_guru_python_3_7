@@ -2,7 +2,7 @@ from selene.support.shared import browser
 import pytest
 
 
-@pytest.fixture(scope='function', autouse=True)
+@pytest.fixture(scope="function", autouse=True)
 def form_management():
     browser.config.window_width = 1920
     browser.config.window_height = 1080

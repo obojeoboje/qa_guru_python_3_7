@@ -6,12 +6,12 @@ from selene.support.shared import browser
 from selene.support.shared.jquery_style import s
 
 
-@allure.tag('web')
+@allure.tag("web")
 @allure.severity(Severity.CRITICAL)
-@allure.label('owner', 'a.privalov')
-@allure.feature('Issue #68 should be visible')
-@allure.story('Clean Selene')
-@allure.link('https://github.com', name='Testing')
+@allure.label("owner", "a.privalov")
+@allure.feature("Issue #68 should be visible")
+@allure.story("Clean Selene")
+@allure.link("https://github.com", name="Testing")
 def test_github_by_steps():
     with allure.step("Открываем GitHub"):
         browser.open("https://github.com")
